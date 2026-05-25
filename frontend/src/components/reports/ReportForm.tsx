@@ -118,7 +118,7 @@ export const ReportForm: React.FC = () => {
                     </div>
 
                     {/* Fila 2: Ticket y Trabajo Realizado */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 items-center">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                         <FormInput
                             id="incChg"
                             label="Ticket (INC/CHG)"
