@@ -1,0 +1,27 @@
+# Dependencias
+node_modules
+npm-debug.log
+pnpm-debug.log
+yarn-error.log
+
+# Entornos de variables locales (¡Por seguridad no se copian!)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Carpetas de compilación (Docker las generará internamente si es necesario)
+dist
+build
+
+# Archivos de Git y Docker
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
